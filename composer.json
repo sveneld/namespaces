@@ -1,0 +1,29 @@
+{
+  "name": "sveneld/namespaces",
+  "description": "examples of namespace using",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vladimir.panivko",
+      "email": "sveneld300@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^8.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ComposerPsr4\\" : "src/composerPsr4"
+    },
+    "psr-0": {
+      "ComposerPsr0_" : "src/composerPsr0"
+    },
+    "classmap": [
+      "src/classMap"
+    ],
+    "files": [
+      "src/files/A.php"
+    ]
+  }
+}
